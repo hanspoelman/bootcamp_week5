@@ -1,0 +1,178 @@
+*{margin: 0; padding: 0;}
+
+/*algemeen*/
+
+body {
+    background-image: url(achtergrondhome.jpg);
+    opacity: 0.9;
+}
+h1 {
+    font-size: 50pt;
+    text-align:center;
+    padding: 18px 0 18px 0;
+    }
+h2 {
+    font-size: 26pt;
+    text-align:center;
+    padding: 18px 0 18px 0;
+    }
+.button {
+    background-color: #4CAF50;
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    padding:12px;
+    border: 3px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*Grid*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px auto 150px;
+    grid-template-rows: 120px 80px auto 80px 120px;
+}
+.grid-container > div {
+    text-align: center;
+}
+.item1 {
+    grid-column: 1 / span 3;
+}
+.item2 {
+    grid-column: 1 / span 3;
+}
+.item3 {
+    background-color: gainsboro;
+}
+.item4 {
+    background-color: gainsboro;
+}
+.item5 {
+    background-color: gainsboro;
+}
+.item6 {
+    grid-column: 1 / span 3;
+}
+.item7 {
+    grid-column: 1 / span 3;
+    background-color: gainsboro;
+}
+
+/*nav bar*/
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 5%;
+    overflow: hidden;
+    background-color: gainsboro;
+    }
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    background-color:gainsboro;
+    color:black;
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover{
+    opacity: 0.2;
+}
+
+/*blog invoeren*/
+
+input[type=text] {
+    width: 500px;
+    padding: 5px;
+    font-size: 12pt;
+    border: 3px solid grey;
+}
+input[type=textarea] {
+    width: 500px;
+    padding: 5px;
+    font-size: 12pt;
+    border: 3px solid grey;
+}
+input[type=email] {
+    width: 500px;
+    padding: 5px;
+    font-size: 12pt;
+    border: 3px solid grey;
+}
+table {
+    margin-left: 650px;
+}
+#blog  {
+    width: 500px;
+    padding: 5px;
+    height: 400px;
+    font-size: 12pt;
+    border: 3px solid grey;
+}
+input[type=onderwerp] {
+    width: 62%;
+    height: 300px;
+    font-family: sans-serif;
+    font-size: 12pt;
+    border: 3px solid grey;   
+}
+input[type=password] {
+    width: 500px;
+    padding: 5px;
+    font-size: 12pt;
+    border: 3px solid grey;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    border: 3px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkgreen;
+    color: azure;
+}
+
+/*blog uitvoeren*/
+
+.blog {
+    border: 1px solid grey;
+    margin-top: 20px;
+}
+input[type=text1] {
+    width: 1000px;
+    padding: 5px;
+    font-size: 12pt;
+/*    border: 3px solid grey;*/
+}
+/*footer*/
+
+footer {
+clear: both;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-family: cursive;
+    font-size: 15px;    
+    display: block;
+    width: auto;
+    height: 80px;
+    background-color: gainsboro;
+}
+
+
